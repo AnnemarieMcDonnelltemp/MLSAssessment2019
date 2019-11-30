@@ -71,7 +71,7 @@ plt.xlabel("Prices: $Y_i$")
 plt.ylabel("Predicted prices: $\hat{Y}_i$")
 plt.title("Prices vs Predicted prices: $Y_i$ vs $\hat{Y}_i$")
 
-#mse = sklearn.metrics.mean_squared_error(Y_test, Y_pred)
-#print(mse)
+mse = sklearn.metrics.mean_squared_error(Y_test, Y_pred)
+print(mse)
 
 
