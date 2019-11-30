@@ -35,3 +35,12 @@ bos['PRICE'] = boston.target
 print(bos.head())
 
 print(bos.describe())
+
+X=bos.drop('PRICE', axis=1)
+Y=bos['PRICE']
+
+#X_train, X_test, Y_train, Y_test = sklearn.cross_validation.train_test_split(X,Y,test_size =0.33, random_state = 5)
+#print(X_train.shape)
+#print(X_test.shape)
+#print(Y_train.shape)
+#print(Y_test.shape)
