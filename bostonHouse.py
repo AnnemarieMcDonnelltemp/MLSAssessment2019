@@ -57,7 +57,7 @@ print(Y_test.shape)
 from sklearn.linear_model import LinearRegression
 
 import matplotlib.pyplot as plt
-%matplotlib inline
+#%matplotlib inline
 plt.style.use('seaborn-whitegrid')
 import numpy as np
 
